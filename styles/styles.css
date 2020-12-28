@@ -126,12 +126,17 @@
 
 /* Verified Buyer */
 
+.card {
+  border-radius: 2.5%;
+}
 
 @media (max-width: 900px) {
-    .verified-buyer-card-1, .verified-buyer-card-2, .verified-buyer-card-3 {
-      margin-left: 40px;
-    }
+  .verified-buyer-card-1,
+  .verified-buyer-card-2,
+  .verified-buyer-card-3 {
+    margin-left: 40px;
   }
+}
 
 @media (min-width: 900px) {
   .verified-buyer-card-1 {
@@ -142,26 +147,28 @@
   .verified-buyer-card-2 {
     width: 450px;
     margin: 0 25px;
+    position: relative;
+    top: 20px;
   }
 
   .verified-buyer-card-3 {
     margin-right: auto;
+    position: relative;
+    top:40px;
   }
 }
 
-
 @media (max-width: 900px) {
-    .verified-buyer {
-        display: inline-block;
-    }
-    .buyer-image-col {
-        width: 100px;
-    }
-    .buyer {
-        margin-bottom: 30px;
-    }
+  .verified-buyer {
+    display: inline-block;
+  }
+  .buyer-image-col {
+    width: 100px;
+  }
+  .buyer {
+    margin-bottom: 30px;
+  }
 }
-
 
 .buyer {
   background-color: #511f50;
